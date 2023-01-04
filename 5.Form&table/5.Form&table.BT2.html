@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Bài tập 2</title>
 </head>
 <body><FORM action="http://demo.codegym.vn/6/registration_form/register.php">
+    <fieldset>
+        <legend> Bài 2_phần 1</legend>
     <P>SỞ THÍCH CỦA BẠN</P>
     Họ và tên:
-    <input type="text" name="name" value="name"><br><br>
+    <input type="text" name="name" value=""><br><br>
     Email:
-    <input type="text" name="email" value="email"><br><br>
+    <input type="text" name="email" value=""><br><br>
     Sở thích: <br>
     <input type="radio" name="Sở thích" value="Thể thao">Thể thao
     <input type="radio" name="Sở thích" value="Âm nhạc">Âm nhạc
@@ -20,7 +22,38 @@
     <input type="radio" name="Sở thích" value="Du Lịch">Du lịch <br>
     <input type="submit" value="Gửi thông tin">
     <input type="reset" value="Nhập lại">
+    </fieldset>
 </FORM>
+<FORM action="http://demo.codegym.vn/6/registration_form/register.php">
+    <fieldset>
+        <legend> Bài 2_phần 2</legend>
+        <P>ĐĂNG KÝ HỌC VIÊN</P>
+        Họ và tên:
+        <input type="text" name="name" value=""> <br><br>
 
+        Ngày sinh:
+        <input type="text" name="Ngày sinh" value=""><br><br>
+
+        Giới tính:
+        <input type="radio" name="Giới tính" Value="Nam"> Nam
+        <input type="radio" name="Giới tính" Value="Nữ"> Nữ <br><br>
+        Địa chỉ:
+        <textarea clos="50px" rows="3px"></textarea><br><br>
+        Lớp :
+        <select>
+            <option name="Lớp" value="A"> A </option>
+            <option name="Lớp" value="B"> B </option>
+            <option name="Lớp" value="C"> C </option>
+            <option name="Lớp" value="D"> D </option>
+            <option name="Lớp" value="E"> E </option>
+        </select> <br><br>
+        Email:
+        <input type="text" name="Email" value=""><br><br>
+        Điện thoại:
+        <input type="text" name="Phone" value=""><br><br>
+        <input type="submit" name="Đăng ký" value="Đăng ký">
+        <input type="reset" name="Nhập lại" value="Nhập lại">
+    </fieldset>
+</FORM>
 </body>
 </html>
